@@ -1,0 +1,359 @@
+
+.resultpage {
+  text-align: center;
+}
+
+.next {
+  margin-top: 30px;
+}
+
+
+/* Website */
+
+body {
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wenhuabaohu {
+   width: 70px;
+   height: 70px;
+}
+
+@media (max-width: 900px) {
+
+  .wenhuabaohu {
+     width: 50px;
+     height: 50px;
+  }
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-size: 2.0rem;
+  font-weight: 700;
+}
+
+
+.nav-item {
+  padding: 0 13.5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.head.container-fluid {
+  padding: 2% 14% 0;
+}
+
+@media (max-width: 900px) {
+  .head.container-fluid {
+    padding: 0 14%;
+  }
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #e752ba;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+
+#title.container-fluid {
+  padding: 3% 14%;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  #title.container-fluid{
+    text-align: center;
+  }
+}
+
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .title-image {
+    transform: rotate(0);
+  }
+
+}
+
+.Fouad {
+  text-align: center;
+}
+
+/* Footer Section */
+
+
+#footer .container-fluid {
+  padding: 4% 14%;
+}
+
+
+
+.copyright {
+  color: #808080;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Links */
+
+.social-media {
+  color: #000;
+}
+
+.social-media:hover {
+  color: #000;
+}
+
+.social-icons {
+  margin: 20px 10px 0;
+}
+
+/* Tabpage */
+
+.tabpage {
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: auto 14%;
+  max-height: 120px;
+  border: 0 solid #ddd;
+  display: flex;
+  overflow-x: auto;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    margin: auto;
+  }
+}
+
+.wrapper::-webkit-scrollbar{
+  /* width: 0; */
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d3ae20;
+}
+
+@media (max-width: 900px) {
+  .wrapper::-webkit-scrollbar{
+    /* width: 0; */
+    height: 0;
+  }
+}
+
+.wrapper .item{
+  min-width: 80px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  /* background-color: #ddd; */
+  /* margin-right: 2px; */
+}
+
+.btn-outline-danger {
+  --bs-btn-padding-y: .30rem;
+  --bs-btn-padding-x: .60rem;
+  --bs-btn-font-size: .90rem;
+}
+
+iframe {
+  border:none;
+  width: 100%;
+  height: 70vh;
+}
+
+.long {
+  margin: 1% auto 0;
+  width: 100%;
+}
+
+/* Cardpage */
+
+div.cardpage {
+  padding: 3% 14% 1%;
+  text-align: left;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 5%;
+}
+
+p.cardpage {
+  color: #000;
+  padding-top: 15px;
+}
+
+.cardpage h5 {
+  color: #000;
+}
+
+.shop {
+  margin: 20px 10px 0;
+}
+
+.small {
+  border: 0;
+  width: 300px;
+}
+
+.two {
+   width: 100px;
+}
+
+.logo {
+  width: 100px;
+  width: 100%;
+}
+
+a p {
+  color: black;
+}
+
+.price {
+  font-weight: 600;
+}
+
+/* Contentpage */
+
+.contentpage img {
+  margin-top: 2%;
+  width: 40%;
+}
+
+@media (max-width: 900px) {
+  .contentpage img {
+    margin-top: 2%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .contentpage img {
+    margin-top: 2%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  img.img-thumbnail {
+    margin-top: 2%;
+    width: 90%;
+  }
+
+}
+
+
+hr {
+  margin: 5% auto auto auto;
+  width: 80%;
+}
+
+.middle-hr {
+  border: dotted #000 3px;
+  border-bottom: none;
+  margin: 2% auto auto auto;
+}
+
+.contentpage p {
+  line-height: 1.7;
+  margin: auto;
+  text-align: left;
+  width: 80%;
+}
+
+p.shopping {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.contentpage h3 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.contentpage h4 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.contentpage h5 {
+  color: #808080;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+strong {
+  color: #b11226;
+}
+
+.shopping a{
+  text-decoration: underline;
+}
+
+/* Bottom Section */
+.footera {
+  color: #11999E;
+}
+
+.footera:hover {
+  color: #11999E;
+}
+
+p.footer {
+  color: #808080;
+  margin: 1% auto auto;
+  text-align: center;
+}
+
+.bottom.container-fluid {
+  padding: 0 0 5%;
+}
+
+@media (max-width: 900px) {
+  .bottom.container-fluid {
+    padding: 3% 0 10%;
+  }
+}
